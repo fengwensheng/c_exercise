@@ -27,5 +27,7 @@ int AL_add(ArrayList* al, Item item);
 int AL_remove(ArrayList* al, int pos);
 ///获取元素
 int AL_get(ArrayList* al, int pos, Item*);
+///print all
+int AL_print(ArrayList* al);
 
 #endif

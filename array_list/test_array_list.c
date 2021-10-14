@@ -4,10 +4,18 @@
 int main() {
     ArrayList al;
     AL_init(&al);
-    AL_add(&al,1);
-    Item cur = 0;
-    AL_get(&al,0,&cur);
-    printf("%d", cur);
+    for(int i=0;i<8;i++) {
+        AL_add(&al,i);
+    }
+    //第一次扩容
+    for(int i=0;i<8;i++) {
+        AL_add(&al,i);
+    }
+    //第二次扩容
+    for(int i=0;i<8;i++) {
+        AL_add(&al,i);
+    }
+    AL_print(&al);
     return OK;
 }
 
