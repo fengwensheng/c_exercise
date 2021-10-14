@@ -1,0 +1,3 @@
+/Users/vincentfeng/Development/c/cmake_test/build/CMakeFiles/rebuild_cache.dir
+/Users/vincentfeng/Development/c/cmake_test/build/CMakeFiles/edit_cache.dir
+/Users/vincentfeng/Development/c/cmake_test/build/CMakeFiles/app.dir
